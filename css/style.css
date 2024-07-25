@@ -35,9 +35,13 @@ h6{
     font-family:"Amalfi Regular" ;
     src: url(Amalfi-Regular.woff);
  }
+ @font-face {
+    font-family:"Avdira" ;
+    src: url(/fonts/Avdira_R.ttf);
+ }
 html,
 body {
-font-family:"Open Sans";
+font-family: "Montserrat";
 margin: 0;
 padding: 0;
 background-color: #f0f0f0;
@@ -49,9 +53,6 @@ margin: 0 auto;
 }
 
 .header {
-    font-family: "Ink Free";
-    font-weight: 600;
-    font-style: normal;
 background-color: #DAA521;
 color: #000;
 padding: 20px 0;

@@ -37,7 +37,7 @@ h6{
  }
 html,
 body {
-font-family: 'Roboto', sans-serif;
+font-family:"Open Sans";
 margin: 0;
 padding: 0;
 background-color: #f0f0f0;
@@ -49,6 +49,9 @@ margin: 0 auto;
 }
 
 .header {
+    font-family: "Ink Free";
+    font-weight: 600;
+    font-style: normal;
 background-color: #DAA521;
 color: #000;
 padding: 20px 0;
@@ -110,8 +113,7 @@ position: relative;
 }
 
 .list__link a {
-font-family: "Amalfi Regular";
-font-size: 44px;
+font-size: 24px;
 text-decoration: none;
 color: #000;
 transition: color 0.3s ease-in-out;
@@ -122,8 +124,7 @@ color: #f4f4f4;
 }
 
 .user__btn {
-font-family: "Amalfi Regular";
-font-size: 28px;
+font-size: 18px;
 padding: 6px 24px;
 background-color: #000;
 border: none;
@@ -266,6 +267,69 @@ color: #ff9800;
     transform: scale(1.1);
     background-color: #DAA521;
     }
+
+.footer{
+    background-color: rgba(0, 0, 0, 70%);
+    height: 240px;
+}
+
+.footer__iron{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__content{
+    margin-top: 40px;
+    width: 800px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_logo_site img {
+    margin-top: 24px;
+    align-items: center;
+    margin-right: 60px;
+    width: 124px;
+    transition: transform 0.3s ease-in-out;
+    }
+    
+.footer_logo_site img:hover {
+    transform: scale(1.1);
+    }
+
+.footer__title{
+    font-size: 24px;
+}
+
+.footer_list_content{
+    margin-top: 4px;
+}
+
+.list_link{
+    color: #DAA521;
+    margin-top: 6px;
+}
+
+.data_site{
+    margin-top: 8px;
+    color: #DAA521;
+}
+
+.list_content{
+    display: flex;    
+}
+
+.social_network_link img{
+    align-items: center;
+    width: 24px;
+    height: 24px;
+}
+
+.social_network_link a{
+    margin-right: 12px;
+}
+
 @media (max-width: 1024px) {
 .cards {
     width: calc(33.333% - 20px);

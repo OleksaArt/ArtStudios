@@ -27,21 +27,13 @@ h6{
     font-weight: inherit;
     font-size: inherit;
 }
-@font-face {
-    font-family: "Inkfree" ;
-    src: url(Inkfree.ttf);
-}
+
  @font-face {
-    font-family:"Amalfi Regular" ;
-    src: url(Amalfi-Regular.woff);
- }
- @font-face {
-    font-family:"Avdira" ;
-    src: url(/fonts/Avdira_R.ttf);
+    font-family:"Ozme" ;
+    src: url(Ozme.TTF);
  }
 html,
 body {
-font-family: "Montserrat";
 margin: 0;
 padding: 0;
 background-color: #f0f0f0;
@@ -53,6 +45,7 @@ margin: 0 auto;
 }
 
 .header {
+font-family:"Ozme";
 background-color: #DAA521;
 color: #000;
 padding: 20px 0;
@@ -156,14 +149,14 @@ padding: 20px;
 }
 
 .sketches__title {
-font-family:"Ink free" ;
+font-family:"Ozme";
 font-size: 36px;
 text-align: center;
 margin-bottom: 20px;
 }
 
 .sketches__subtitle {
-font-family:"Ink free" ;
+font-family:"Ozme";
 font-size: 24px;
 text-align: center;
 margin-bottom: 20px;
